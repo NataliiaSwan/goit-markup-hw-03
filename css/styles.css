@@ -1,0 +1,149 @@
+body {
+    font-family:"Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+/*header*/
+
+header {
+    letter-spacing: 0.02em;
+    }
+
+.header-logo,
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+
+}
+.header-logo-accent {
+    color: #2E2F42
+}
+.header-list {
+    font-weight: 500;
+    list-style-type: none;
+
+}
+.header-link-itam {
+    color: #2E2F42;
+}
+.header-address {
+    font-style: normal;
+}
+.address-link-itam {
+    color :#434455;
+}
+.header-link-itam:hover,
+.header-link-itam:focus,
+.address-link-itam:hover,
+.address-link-itam:focus {
+    color: #404BBF;
+ }
+.address-list {
+    list-style-type: none;
+}
+
+/*hero-section*/
+
+.hero-section {
+    background-color: #2E2F42;
+}
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    
+}
+.button {
+    font-family: "Roboto", sans-serif;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:1.5em;
+    letter-spacing: 0.04em;
+    background: #4D5AE5;
+    cursor: pointer;
+    
+}
+.button:hover,
+.button:focus {
+    background: #404BBF;
+   
+}
+/*section future*/
+
+.section-feature-list {
+    list-style-type: none;
+}
+.title-page {font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.page-section {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+/*section team*/
+
+.section-team {
+    background: #F4F4FD;
+}
+.section-team-list {
+    list-style-type: none;
+}
+.section-team-itam {
+    background-color: #FFF;
+}
+.sections-title {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.section-team-img {
+    background: url(<path-to-image>), lightgray -97.034px -0.927px no-repeat;
+}
+
+/*section portfolio*/
+
+.section-portfolio-list {
+    list-style-type: none;
+}
+.section-portfolio-img {
+    background: url(<path-to-image>), lightgray -25.026px 0px no-repeat;
+    flex-shrink: 0;
+}
+/*footer*/
+.footer {
+    background: #2E2F42;
+}
+.footer-logo-accent,
+.footer-page {
+     color: #F4F4FD;
+     letter-spacing: 0.02em;
+ } 
+
+
+
+
+
+
+
