@@ -4,20 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
-      rel="stylesheet"
-    />
+
     <link
       rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
@@ -29,16 +23,26 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="header">
       <div class="container header-container">
-        <a class="header-logo" href="./index.html"
-          >Web<span class="header-logo-accent">Studio</span></a
-        >
         <nav class="header-nav">
+          <a class="header-logo" href="./index.html"
+            >Web<span class="header-logo-accent">Studio</span></a
+          >
+
           <ul class="header-list">
             <li class="header-list-item">
               <a class="header-list-link" href="./index.html">Studio</a>
@@ -54,12 +58,12 @@
 
         <address class="header-address">
           <ul class="header-address-list">
-            <li>
+            <li class="header-adress-item">
               <a class="header-address-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
+            <li class="header-address-item">
               <a class="header-address-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
@@ -131,9 +135,10 @@
                 alt="foto of team member"
                 width="264"
               />
-
-              <h3 class="section-team-title">Mark Guerrero</h3>
-              <p class="section-team-page">Product Designer</p>
+              <div class="card-content">
+                <h3 class="section-team-title">Mark Guerrero</h3>
+                <p class="section-team-page">Product Designer</p>
+              </div>
             </li>
 
             <li class="section-team-item">
@@ -143,9 +148,10 @@
                 alt="foto of team member"
                 width="264"
               />
-
-              <h3 class="section-team-title">Tom Ford</h3>
-              <p class="section-team-page">Frontend</p>
+              <div class="card-content">
+                <h3 class="section-team-title">Tom Ford</h3>
+                <p class="section-team-page">Frontend</p>
+              </div>
             </li>
 
             <li class="section-team-item">
@@ -155,9 +161,10 @@
                 alt="foto of team member"
                 width="264"
               />
-
-              <h3 class="section-team-title">Camila Garcia</h3>
-              <p class="section-team-page">Marketing</p>
+              <div class="card-content">
+                <h3 class="section-team-title">Camila Garcia</h3>
+                <p class="section-team-page">Marketing</p>
+              </div>
             </li>
 
             <li class="section-team-item">
@@ -167,9 +174,10 @@
                 alt="foto of team member"
                 width="264"
               />
-
-              <h3 class="section-team-title">Daniel Wilson</h3>
-              <p class="section-team-page">UI Designer</p>
+              <div class="card-content">
+                <h3 class="section-team-title">Daniel Wilson</h3>
+                <p class="section-team-page">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -188,8 +196,10 @@
                 alt="bank application interface"
                 width="360"
               />
-              <h3 class="section-portfolio-title">Banking App</h3>
-              <p class="section-portfolio-page">App</p>
+              <div class="portfolio-content">
+                <h3 class="section-portfolio-title">Banking App</h3>
+                <p class="section-portfolio-page">App</p>
+              </div>
             </li>
             <li class="section-portfolio-item">
               <img
@@ -198,8 +208,10 @@
                 alt="terminal and phone"
                 width="360"
               />
-              <h3 class="section-portfolio-title">Cashless Payment</h3>
-              <p class="section-portfolio-page">Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="section-portfolio-title">Cashless Payment</h3>
+                <p class="section-portfolio-page">Marketing</p>
+              </div>
             </li>
             <li class="section-portfolio-item">
               <img
@@ -208,8 +220,10 @@
                 alt="laptop and phone"
                 width="360"
               />
-              <h3 class="section-portfolio-title">Meditation App</h3>
-              <p class="section-portfolio-page">App</p>
+              <div class="portfolio-content">
+                <h3 class="section-portfolio-title">Meditation App</h3>
+                <p class="section-portfolio-page">App</p>
+              </div>
             </li>
             <li class="section-portfolio-item">
               <img
@@ -218,8 +232,10 @@
                 alt="car control system"
                 width="360"
               />
-              <h3 class="section-portfolio-title">Taxi Service</h3>
-              <p class="section-portfolio-page">Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="section-portfolio-title">Taxi Service</h3>
+                <p class="section-portfolio-page">Marketing</p>
+              </div>
             </li>
             <li class="section-portfolio-item">
               <img
@@ -228,8 +244,10 @@
                 alt="illustations of phone screens"
                 width="360"
               />
-              <h3 class="section-portfolio-title">Screen Illustrations</h3>
-              <p class="section-portfolio-page">Design</p>
+              <div class="portfolio-content">
+                <h3 class="section-portfolio-title">Screen Illustrations</h3>
+                <p class="section-portfolio-page">Design</p>
+              </div>
             </li>
             <li class="section-portfolio-item">
               <img
@@ -238,8 +256,10 @@
                 alt="smiling girl with a phone"
                 width="360"
               />
-              <h3 class="section-portfolio-title">Online Courses</h3>
-              <p class="section-portfolio-page">Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="section-portfolio-title">Online Courses</h3>
+                <p class="section-portfolio-page">Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
